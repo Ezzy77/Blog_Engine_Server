@@ -205,7 +205,8 @@ describe('Test malformed creation of users, logged in as admin.', () => {
                 "first_name": good_user_data[0].first_name,
                 "last_name": good_user_data[0].last_name,
                 "password": good_user_data[0].password,
-                "email": good_user_data[0].email
+                "email": good_user_data[0].email,
+                "extra":"field"
             })
             .then((res) => {
                 expect(res).to.have.status(400);
