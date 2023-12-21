@@ -1,19 +1,41 @@
-# Blog Engine Starter Code
+# BlogEngine Back-End Repository
 
-**For the full-stack web development assignment 22/23**
+Welcome to the BlogEngine Back-End repository! This project aims to reimagine the WordPublisher blogging platform by developing a modern and scalable full-stack web app using the latest frameworks.
 
-Steps to download and run:
-1. Make sure you have NodeJS installed on your machine ([Download NodeJS](https://nodejs.org/en/download/))
-2. Make sure you have Git installed on your machine ([Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))
-2. In your terminal, navigate to the directory where you want to download the project
-3. Run `git clone https://github.com/ash-williams/fsd_blog_engine_server`
-4. Once the project has finished downloading, navigate into the projects root directory `cd fsd_blog_engine_server`
-5. Run `npm install` to install all dependencies for the project
-6. Once the dependencies have installed, run the server using `npm run dev`. You will see a message saying that the server is running on port 3333.
-7. In a **separate terminal window** navigate to the projects root directory and run `npm test` to run the tests. The tests will mostly fail, but that is because we have not yet written any code.
+## Table of Contents
 
-Once you have completed the above, you are set up and ready to begin work on the assignment.
+- [Project Overview](#project-overview)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [API Specification](#api-specification)
+- [Database Structure](#database-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-If you have any issues, come see me in the labs.
+## Project Overview
 
-Ash
+BlogEngine is a blogging platform that allows users to effortlessly manage personal and professional. This project is part of a fullstack web application. The back-end is separated from the front-end to enhance scalability and performance. 
+
+You can download and and run the application loacally, you will also need the frontend to be running.
+The front-end can be found [Here](https://github.com/Ezzy77/Blog_Engine_Frontend)
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) installed
+- [npm](https://www.npmjs.com/) package manager
+- [BlogEngine-Front-end](https://github.com/Ezzy77/Blog_Engine_Frontend) running locally
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Ezzy77/Blog_Engine_Server.git
+   git clone https://github.com/Ezzy77/Blog_Engine_Frontend.git
+
+### API Specification
+
+
